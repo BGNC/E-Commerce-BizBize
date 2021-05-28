@@ -1,0 +1,4 @@
+[10-Dec-2017 12:46:08 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/emrahyuksel/public_html/c2c/nedmin/netting/baglan.php:8
+Stack trace:
+#0 /home/emrahyuksel/public_html/c2c/nedmin/netting/baglan.php(8): PDO->__construct('mysql:host=loca...', 'root', '12345678')
+#1 {main}
